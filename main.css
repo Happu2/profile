@@ -39,6 +39,10 @@ header:hover {
   margin-bottom: 20px;
   transition: transform 0.4s ease;
 }
+.profile-photo:hover {
+  background: #005fa3;
+  transform: translateY(-3px);
+}
 
 h1 {
   font-size: 2rem;
@@ -71,4 +75,17 @@ p {
 .social-links a:hover {
   background: #005fa3;
   transform: translateY(-3px);
+}
+main {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 20px;
+}
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
