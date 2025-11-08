@@ -1,4 +1,4 @@
-# Hi there, I'm Happu! 👋
+# Hi there, I'm Harpreet! 👋
 
 Welcome to my GitHub profile! I'm a passionate developer interested in building innovative solutions and exploring new technologies.
 
