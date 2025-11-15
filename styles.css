@@ -861,3 +861,51 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* --- Add these styles to your styles.css --- */
+
+/* Styles for the filter button container */
+.filter-controls {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Styles for individual filter buttons */
+.filter-btn {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit; /* Ensure it uses your site's font */
+}
+
+/* Style for the button on hover */
+.filter-btn:hover {
+  background-color: #f4f4f4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Style for the ACTIVE button */
+.filter-btn.active {
+  /* Use a brand color if you have one! */
+  background-color: #007bff; /* A sample primary color */
+  color: #fff;
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+/* Optional: Add a small transition to the cards
+  for a smoother hide/show effect.
+*/
+.project-card {
+  /* ... your existing .project-card styles ... */
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+

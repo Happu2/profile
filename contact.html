@@ -43,14 +43,14 @@
               <div class="contact-icon">📧</div>
               <div>
                 <h3>Email</h3>
-                <p>happu20022@gmail.com</p>
+                <p id="contact-email">happu20022@gmail.com</p>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon">📱</div>
               <div>
                 <h3>Phone</h3>
-                <p>(+91) 8707360996</p>
+                <p id="contact-phone">(+91) 8707360996</p>
               </div>
             </div>
 
@@ -95,7 +95,12 @@
 
           <div class="contact-form-container">
             <h2>Send a Message</h2>
-            <form class="contact-form">
+            <form
+              class="contact-form"
+              id="contact-form-real"
+              action="https://formspree.io/f/mkgkrjod"
+              method="POST"
+            >
               <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required />
@@ -146,5 +151,6 @@
         <p>&copy; 2025 Harpreet Singh. All rights reserved.</p>
       </div>
     </footer>
+    <script src="contact.js"></script>
   </body>
 </html>
